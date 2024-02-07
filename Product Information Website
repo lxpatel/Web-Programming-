@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Information Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+img {
+    width: 100px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Availability status styles */
+.available {
+    color: green;
+}
+
+.limited {
+    color: orange;
+}
+
+.out-of-stock {
+    color: red;
+}
+
+</style>
+<body>
+    <h1>Product Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+                <th>Availability</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iphone 14 Plus</td>
+                <td>Apple</td>
+                <td>INR 1,60,000</td>
+                <td><span class="available">In Stock</span></td>
+                <td><img src="C:\Users\patel\OneDrive\Desktop\product_image_blue_01-300x300.jpg.webp" alt="Iphone 14 Plus"></td>
+            </tr>
+            <tr>
+                <td>Lenovo Legion 5 Pro</td>
+                <td>Lenovo</td>
+                <td>INR 90,000</td>
+                <td><span class="limited">Limited Stock</span></td>
+                <td><img src="C:\Users\patel\OneDrive\Desktop\unnamed.webp" alt="Legion 5 Pro"></td>
+            </tr>
+            <tr>
+                <td>Watch Series 9</td>
+                <td>Noise</td>
+                <td>INR 38,000</td>
+                <td><span class="out-of-stock">Out of Stock</span></td>
+                <td><img src="C:\Users\patel\OneDrive\Desktop\prodyuct_image_01.jpg.webp" alt="Watch Series 9"></td>
+            </tr>
+            </tbody>
+    </table>
+</body>
+</html>
+
+
