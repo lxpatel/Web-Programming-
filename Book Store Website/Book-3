@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Book 1 Details</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Alice in Wonderland</h1>
+        <img src="C:\Users\patel\OneDrive\Desktop\Alice_in_wonderland_poster_2_1_original1.webp" alt="Bookstore logo or banner" width="300px" height="400px">
+
+        <p>Author: Jefrey D.</p>
+        <p>Published Year: 1972</p>
+        <p>Genre: Fiction</p>
+        <p>Description:Alice, now 19 years old, follows a rabbit in a blue coat to a magical wonderland from her dreams where she is reunited with her friends who make her realise her true destiny.</p>
+        <a href="index.html">Back to Book List</a>
+    </div>
+</body>
+</html>
