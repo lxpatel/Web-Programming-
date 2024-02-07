@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+    <title>Book Store</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Patel Book Store</h1>
+        <img src="C:\Users\patel\OneDrive\Desktop\inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg" alt="Bookstore logo or banner" width="800px" height="200px">
+
+        <ul>
+            <li><a href="book1.html">Donald the Brook</a></li>
+            <li><a href="book2.html">Harry Potter and Princess Nefula</a></li>
+            <li><a href="book3.html">Alice in Wonderland</a></li>
+            <!-- Add more books as needed -->
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+
