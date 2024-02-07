@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Book 1 Details</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Donald the Brook</h1>
+        <img src="S:\patel\Pictures\GUEST_318b4298-55f8-43a1-aafe-44bf063cb3e7.jpg" alt="Bookstore logo or banner" width="300px" height="400px">
+        <p>Author: Richi Droi</p>
+        <p>Published Year: 2008</p>
+        <p>Genre: Fiction</p>
+        <p>Description: Donald Brook was an Australian artist, art critic, philosopher, and theorist, whose research and publications centre on the philosophy of art, non-verbal representation and cultural evolution.</p>
+        <a href="index.html">Back to Book List</a>
+    </div>
+</body>
+</html>
